@@ -4201,9 +4201,9 @@ mod tests {
     /// 6. The node receives f + 1 matching ViewChange messages for a future view
     ///
     /// (1) makes sure that a primary does not stall the network indefinitely by never producing a
-    /// block or PrePrepare (see https://github.com/hyperledger/sawtooth-rfcs/pull/29 for more
-    /// information). In this situation, the targeted view change will be `v + 1`, where `v` is the
-    /// node’s current view.
+    /// block or PrePrepare (see https://github.com/splintercommunity/sawtooth-rfcs/blob/main/text/0029-pbft-regular-view-change.md
+    /// for more information). In this situation, the targeted view change will be `v + 1`, where
+    /// `v` is the node’s current view.
     ///
     /// (2) makes sure that the network does not get stuck forever if something goes wrong; if the
     /// network does get stuck, the timer will eventually time out, the view will change, and the
