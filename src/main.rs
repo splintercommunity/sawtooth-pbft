@@ -17,7 +17,7 @@
 
 //! Implementation of the [PBFT consensus
 //! algorithm](https://www.usenix.org/legacy/events/osdi99/full_papers/castro/castro_html/castro.html),
-//! modified for use with Hyperledger Sawtooth.
+//! modified for use with Sawtooth.
 
 #![allow(unknown_lints)]
 
